@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+header {
+    margin: 0 auto;
+    display: block;
+    background: url(images/Banner.png);
+    background-size: 100% 100%;
+}
+.nav-bar {
+    background-color: #4a1831;
+    text-align: center;
+}
+
+.nav-menu ul {
+    display: flex;
+}
+
+.nav-menu a,
+.nav-menu li {
+    font-size: 20px;
+    color: #ffd7ad;
+    font-weight: 400;
+    list-style: none;
+    text-decoration: none;
+    margin: 10px 60px;
+    text-align: center;
+}
+.logo{
+    margin: 60px 0px 20px 40px;
+}
+.home:hover , .about:hover , .menu:hover , .offer:hover , .contact:hover{
+    text-decoration: underline;
+}
+.main-text-1{
+    margin: 0px 100px 0px 0px;
+    padding: 0px 100px 0px 0px;
+}
+.main-text-1 h1{
+    font-size: 105px;
+    color: #ffd7ad;
+    font-weight: 700;
+    text-align: left;   
+    margin: 20px 0px 20px 40px; 
+}
+.main-text-wrapper{
+    margin-right: 100px;
+    padding-right: 100px;
+}
+h1+p{
+    text-align: left;
+    color: #ffd7ad;
+    font-size: 28px;
+    font-weight: 300; 
+    margin: 40px 100px 0px 40px;
+    padding: 0px 100px 40px 0px;   
+}
+.order , .see-menu , .tell , .see-offer{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 45px;
+    text-align: center;
+    background-color: #ffd7ad;
+    color: #4a1831;
+    margin: 0px 0px 100px 45px;
+}
+.order:hover {
+    background-color: #4a1831;
+    color:#ffd7ad;
+    transition: 1s;
+}
+/* SECTION-1 STARTS FROM HERE!!! */
+.section-1 {
+    background-color: #ffd7ad;
+    text-align: center;
+}
+.section-1 h2{
+    font-size: 60px;
+    font-weight: 700;
+    color: #4a1831;
+    padding: 60px 0px 30px 0px;
+}
+h2+p{
+    font-size: 25px;
+    font-weight: 400;
+    color: #4a1831;
+    margin:0px 100px 80px 100px;
+    padding: 0px 100px 0 100px;
+}
+.see-menu{
+    background-color: #4a1831 !important;
+    color: #ffd7ad !important;
+}
+/* SECTION-2 STARTS FROM HERE!!! */
+.section-2{
+    background-color: #ffd7ad;
+}
+.row-1 ,.row-2{
+    display: flex;
+    align-items: center;
+}
+.main-text-3 h2{
+    font-size: 90px;
+    color: #4a1831;
+    font-weight: 900;
+    text-align: left;
+    margin: 0px 0px 0px 90px;
+}
+.main-text-3 h2+p{
+    font-size: 25px;
+    text-align: left;
+    margin: 30px 50px 0px 0px;
+}
+.tell{
+    background-color: #4a1831;
+    color: #ffd7ad;
+    align-items: start !important;
+    margin: 40px 0px 0px 90px;
+}
+.col-50-1 , .col-50-2{
+    padding: 90px 0px 0px 20px;
+}
+.tacos{
+    margin: 90px 0px 0px 60px;
+    align-items: center;
+}
+/* SECTION-3 STARTS FROM HERE!!! */
+.section-3{
+    background-color: #4a1831;
+}
+.section-3 h2{
+    font-size: 90px;
+    font-weight: 900;
+    color: #ffd7ad;
+    margin: 30px 0px 0px 90px;
+}
+.section-3 h2+p{
+    font-size: 25px;
+    font-weight: 400;
+    color: #ffd7ad;
+    text-align: left;
+    margin: 30px 100px 0px -8px;
+}
+.see-offer{
+    margin: 50px 0px 0px 80px;
+}
+.circ{
+    margin: 80px 100px 80px 0px;
+}
+/* SECTION-4 STARTS FROM HERE!!! */
+.section-4{
+    background: url(images/banner-3.png)no-repeat center center/cover;
+}
+.row-3{
+    text-align: center;
+}
+.logo{
+    align-items: center;
+    margin: 0 auto;
+    padding: 80px 0px 61px 0px;
+}
+.main-text-4{
+    font-size: 35px;
+    font-weight: 900;
+    color:#ffd7ad;
+}
+.main-text-4 h3 {
+    margin: 0px 100px 40px 100px;
+}
+.main-text-4 p{
+    padding-bottom: 100px;
+}
+/* SECTION-5 STARTS FROM HERE!!! */
+.section-5{
+    background-color:#ffd7ad;
+}
+.section-wrapper-5{
+    padding: 100px 40px;
+}
+.main-text-5{
+    /* align-items: center; */
+    text-align: center;
+    margin: 0px 100px;
+}
+.main-text-5 h1{
+    font-size: 80px;
+    word-spacing: 10px ;
+    font-weight: 900;
+    padding: 100px 0px 0px 40px;
+}
+.main-text-5 p{
+    font-size: 20px;
+    font-weight: 200;
+    color: #4a1831;
+    text-align: center;
+    margin: 50px 20px 0px 100px;
+}
+.Form {
+    position: relative;
+    align-items: center;
+}
+.Form input {
+    width: 55%;
+    height: 40px;
+    border: none;
+    padding-left: 20px;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    font-size: 17px;
+}
+.Form .bt-2 {
+    color: #ffffff;
+    width: 170px;
+    height: 40px;
+    border: 3px solid #4a1831;
+    background-color:#4a1831;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    position: absolute;
+    right: 20%;
+    top: 15%;
+}
+
+/* Footer start from here!!! */
+footer{
+    display: block;
+}
+.container{
+    display: flex;
+    background-color:#4a1831;
+    margin: 0 auto;
+    padding: 43px 0px;
+}
+.row-4{
+    display: flex;
+    align-items: center;
+    margin: 90px 0px 90px 0px;
+    padding: 90px 0px 80px 0px;
+
+}
+.container .col-40{
+    width: 40%;
+    margin: 30px 0px 100px 91px;
+}
+.container .col-60{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 0px 92px 0px;
+    padding: 0px 98px 17px 0px;
+
+}
+.col-40 h2{
+    font-size: 28px;
+        color:#ffd7ad;
+        font-weight: 700;
+        font-family: "Montserrat";
+        text-align: left;
+        padding: 10px;
+}
+.col-40 h2+p{
+    font-size: 17px;
+    color:#ffd7ad;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: left;
+    padding: 10px 94px 0px 11px;
+    margin: 0px 97px 0px 0px;
+}
+.container h3{
+        font-size: 28px;
+        color:#ffd7ad;
+        font-weight: 700;
+        font-family: "Montserrat";
+        text-align: left;
+        padding: 10px;
+}
+.M-text p {
+    font-size: 17px;
+    color:#ffd7ad;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: left;
+    padding: 10px 70px 0px 11px;
+} 
+.icons img{
+    margin: 27px 12px 0px 8px;   
+}

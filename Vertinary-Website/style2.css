@@ -1,0 +1,353 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    /* border: 1px solid red; */
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    background-color: #fcc302;
+}
+.navbar{
+    background-color: #daac00;
+    display: flex;
+}
+.navbar ul{
+    overflow: auto;  
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 40px 66px 0px 0px ;
+}
+.navbar li a{
+    padding: 3px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-left{
+    margin: 25px 0px 0px 100px;
+    padding-left: 50px;
+    
+}
+.search{
+    float: right;
+    color: white;
+    margin: 35px 20px;
+    position: relative;
+}
+.navbar input{
+    background-color: #fcc302;
+   width: 100%;
+   height: 35px;
+   border: 1px solid  #948143;
+}
+.icon{
+    float: right;
+    background-color: #00bec9;
+    position: absolute;
+    width: auto;
+    top: -1px;
+    right: 0px;
+}
+.icon i{
+    position: absolute;
+    top: 9px;
+    right: 5px;
+}
+.nav-right{
+    margin-left: 20px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    padding-bottom: 66px;
+    position: relative;
+}
+ h1{
+    font-size: 67px;
+    letter-spacing: 1px;
+    color: #ffffff; 
+    font-weight: 800;
+    text-align: left;
+    margin: 70px 75px 10px 100px;
+    padding: 50px 47px 0px 40px;
+}
+h1+p{
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 300;
+    text-align: left;
+    margin: 10px 96px 0px 89px;
+    padding: 0px 90px 0px 49px;
+}
+.col-40{
+    margin: 60px 75px 0px 0px;
+}
+.col-40 img{
+    width: 465px;
+    height: 550px;
+}
+.button{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.bt-1 {
+    border: 2px solid #00bec9;
+    background-color: #00bec9;
+}
+.bt-2{
+    border: 2px solid white;
+    background-color:#fcc302;
+}
+.bt-1 , .bt-2{
+    width: 182px;
+    height: 50px;
+    border-radius: 7px ;
+    font-size: 21px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 0px 60px 0px 35px;
+    padding: 7px 30px
+}
+/* Section-1 starts from here!!! */
+#section-1 , #section-3 , #section-5 , #section-7{
+    background-color: #ffffff;
+}
+.section-wrapper-1{
+    position: relative;
+    padding: 50px 50px 80px 0px;
+}
+#section-1 h1 , #section-3 h1{
+    margin: 0px 100px 0px 0px;
+    font-size: 50px;
+    color: #313243;
+}
+#section-1 h1+p , #section-3 h1+p{
+    margin: 40px 10px 0px -10px;
+    font-size: 29px;
+    color: #313243;
+    padding-bottom: 40px;
+}
+.col-50-1{
+    margin-top: 100px;
+}
+#section-2 img , #section-3 img{
+    overflow: hidden;
+}
+.yellow{
+    position: absolute;
+    bottom: 131px;
+    right: 401px;
+}
+#section-1 .bt-1 , #section-3 .bt-1{
+    border: 2px solid #fcc302;
+    background-color: #fcc302 !important;
+}
+#section-1 .button{
+    margin-left: 5px;
+}
+/* Section-2 starts from here!!! */
+#section-2 , #section-4{
+    background-color: #fcc302;
+}
+.section-wrapper-2{
+    padding: 30px 0px 50px 0px;
+}
+.text{
+    margin: 0px 92px;
+}
+.text h1{
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 100px 0px 100px;
+}
+.text h1+p{
+    font-size: 33px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    align-items: center;
+    margin: 0px 100px 60px 100px;
+    padding: 0px 100px;
+}
+div[class*="box"]{
+    width: 342px;
+    height: 353px;
+}
+.box-1{
+    background: url(images/ver-1.png)no-repeat center center/cover;
+}
+.box-2{
+    background: url(images/ver-2.png)no-repeat center;
+}
+.box-3{
+    background: url(images/ver-3.png )no-repeat center center/cover;
+}
+h3{
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+}
+h3+p{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px 53px 10px 53px;
+}
+/* Section-3 starts from here!!! */
+#section-3 .row{
+    flex-direction: row-reverse;
+}
+.section-wrapper-3{
+    position: relative;
+    padding: 50px 0px 100px 100px;
+}
+#section-3 .row{
+    text-align: right !important; 
+}
+#section-3 .button{
+    margin-right: -10px;
+}
+#section-3 .yellow-1{
+    position: absolute;
+    bottom: 151px;
+    left: 446px;
+}
+#section-3 h1{
+    text-align: right;
+    margin: 0 auto;
+}
+#section-3 h1+p{
+    text-align: right;
+    margin: 38px -40px 20px 50px;
+}
+/* Section-4 starts from here!!! */
+.section-wrapper-4 ,.section-wrapper-5 , .section-wrapper-7{
+    padding: 20px 0px 50px 0px;
+}
+#section-4 .row{
+    margin: 0px 50px;
+}
+#section-4 .box-1{
+    background: url(images/sec-1.png)no-repeat center center/cover;
+}
+#section-4 .box-2{
+    background: url(images/sec-2.png)no-repeat center center/cover;
+}
+#section-4 .box-3{
+    background: url(images/sec-3.png)no-repeat center center/cover;
+}
+#section-4 p{
+    margin: 30px;
+    font-size: 42px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+}
+#section-4 .bt-1{
+    border-radius: 50px;
+}
+#section-4 .button{
+    margin-left: 40px;
+}
+/* Section-5 starts from here!!! */
+#section-5 h1 , #section-5 h3 , #section-7 h1 , #section-7 h3{
+    color: #313243;
+}
+#section-5 h1+p , #section-5 h3+p , #section-7 h1+p{
+    color: #313243;
+    font-weight:300;
+}
+#section-5 .row{
+    margin: 0px 50px;
+}
+#section-5 .box-1{
+    background: url(images/vet-t-1.png)no-repeat center center/cover;
+}
+#section-5 .box-2{
+    background: url(images/vet-t-2.png)no-repeat center center/cover;
+}
+#section-5 .box-3{
+    background: url(images/vet-t-3.png)no-repeat center center/cover;
+}
+#section-5 img{
+    margin: 20px 0px 0px 75px;
+}
+/* Section-6 starts from here!!! */
+.section-wrapper-6{
+    padding: 100px 50px 80px 50px;
+}
+#section-6 .row{
+    padding-top: 50px;
+}
+#section-6 div[class*="box"]{
+    width: 310px;
+    height: 90px;
+}
+#section-6 h3{
+    font-weight: 400;
+}
+#section-6 h3+p{
+    font-size: 38px;
+    font-weight: bolder;
+}
+#section-6{
+    background: url(images/banner.png)no-repeat center center/cover;
+}
+#section-6 .box-1{
+    background: url(images/Icon-1.png)no-repeat center ;
+}
+#section-6 .box-2{
+    background: url(images/Icon\ -2.png)no-repeat center ;
+}
+#section-6 .box-3{
+    background: url(images/Icon\ -3.png)no-repeat center ;
+}
+/* Section-7 starts from here!!! */
+#section-7 .box-1{
+    background: url(images/Rp-1.png)no-repeat center center/cover ;
+}
+#section-7 .box-2{
+    background: url(images/Rp-2.png)no-repeat center center/cover;
+}
+#section-7 .box-3{
+    background: url(images/Rp-3.png)no-repeat center center/cover;
+}
+#section-7 h3{
+    margin: 20px 50px;
+    text-align: left !important;
+    font-size: 25px;
+}
+#section-7 h4 , #section-7 h5{
+    margin: 0px 50px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    color: #00bec9;
+    font-weight: 700;    
+}
+#section-7 h4+p{
+    margin: 0px 50px;
+}
+#section-7 h5{
+    margin: 20px 50px;
+    font-size: 21px;
+}
+#section-7 .row{
+    padding-left: 30px;
+}
