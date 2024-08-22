@@ -23,7 +23,7 @@ body {
     border-radius: 5px;
     border: 1px solid white;
     padding: 6px;
-    border-radius: 4px;
+    border-radius: 10px;
     font-weight: 500;
     background: rgba(0, 0, 0, 0.2);
 }
@@ -33,6 +33,11 @@ body {
     background: transparent;
     border: none;
     color: white;
+    /* outline: 0; */
+}
+
+#language:focus{
+    outline: 0;
 }
 
 .sign-in {
@@ -42,11 +47,12 @@ body {
     color: white;
     font-weight: 300;
     border: solid 1px rgb(216, 46, 40);
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: center;
     padding: 9px 3px 0px 0px;
     margin-left: 30px;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .logo {
@@ -55,7 +61,6 @@ body {
 
 nav {
     padding: 13px 0px 100px 100px;
-
 }
 
 .nav-menu {
@@ -95,13 +100,18 @@ nav {
     height: 60px;
     background: transparent;
     font-size: 18px;
-    padding-left: 5px;
+    padding-left: 10px;
     color: aliceblue;
-    border-radius: 5px;
-    border: 2px solid rgb(100, 97, 97);
+    border-radius: 10px;
+    border: none;
     background-color: black;
     opacity: 0.6;
     margin: 20px 0px 100px 0px;
+    outline: none;
+}
+
+.email-input::placeholder{
+    color: aliceblue;
 }
 
 .start-button {
@@ -110,7 +120,8 @@ nav {
     background-color: rgb(216, 46, 40);
     color: white;
     font-size: 25px;
-    border-radius: 5px;
+    border: none;
+    border-radius: 10px;
     padding-bottom: 5px;
 }
 
@@ -199,6 +210,7 @@ nav {
     font-size: 70px;
     position: absolute;
     right: 200px;
+    cursor: pointer;
 }
 
 .box-contain,
